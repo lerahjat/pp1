@@ -1,7 +1,6 @@
 #a
-#a = 15
-#b = 38
-#c = print(a * b)
+
+#print(15 * 38)
 
 #b
 #a = 3+4
@@ -9,10 +8,19 @@
 #c = print(a*b)
 
 #c
-#a = print(7//2)
+#print(int(7/2))
 
 #d
-#a = print(48%5)
+#print(48%5)
 
 #e
-print(8)
+#print((8+7+4+2)/4)
+
+#f
+#print(2**10)
+
+#g
+#print(49**1/2)
+
+#h
+#print(25/100 * 80)
