@@ -1,6 +1,3 @@
-
-
-
 name = input("Your name:")
 age = int(input("Your age:"))
 height  = int(input("Your height :"))
