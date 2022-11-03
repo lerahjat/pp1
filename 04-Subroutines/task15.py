@@ -1,5 +1,5 @@
 import random
-import mymath
+import math
 def read_number():
    x = int(input("Enter your number:"))
    return x
