@@ -1,10 +1,7 @@
-import random
-import math
-def read_number():
-   x = int(input("Enter your number:"))
-   return x
-x = read_number()
-
-def generate_number():
-   random.randint(1,9)
-print(generate_number)
+import mymath
+a1 = mymath.read_number()
+b1 = mymath.generate_number()
+print(a1,b1)
+if a1 == b1:
+    print("You win!")
+else: print("You failed!")
