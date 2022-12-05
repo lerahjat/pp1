@@ -1,7 +1,11 @@
-import numpy as np
+def compare(array1,array2):
+    if array1 == array2:
+        return True
+    else:
+        return False
 
-A = np.array([[1, 1], [2, 2]])
-B = np.array([[1, 1], [2, 2]])
-equal_arrays = (A == B).all()
 
-print(equal_arrays)
+print(compare(["water","book","sky"], ["water","book","sky"]))
+print(compare([True,False],[True,False,True]))
+print(compare([5,3,1], [5,3,1]))
+print(compare([3,2,1], [3,2]))
