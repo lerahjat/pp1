@@ -16,6 +16,7 @@ def word_finder(f, ll):
     return out
 
 print(word_finder('m', 'g'))
+print(word_finder('w', 's'))
 
 
 
